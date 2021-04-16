@@ -1,0 +1,23 @@
+// globall.scss ini untuk mengubah style bersifat keseluruhan/global.
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+// untuk header supaya tidak tertimpa oleh content
+.page-content {
+  margin-top: 100px;
+}
+
+footer {
+  border-top: 1px solid #e4e4e4;
+  margin-top: 150px;
+
+  p {
+    color: #979797;
+  }
+
+  // background untuk semua form
+  .form-control {
+    background-color: #f3f3f3;
+  }
+}

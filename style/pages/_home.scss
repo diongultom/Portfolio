@@ -1,0 +1,177 @@
+body {
+  background-color: #ecf0f3;
+}
+
+.one {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(236, 240, 243, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.page-home {
+  .profil-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 10px #fff;
+  }
+
+  .hello {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+
+  .my-name {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #002cb4;
+  }
+
+  .my-specialist {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #007bff;
+  }
+
+  .my-button {
+    box-shadow: 0px 0px 0px #007bff, -6px -6px 8px;
+    border: none !important;
+    background-color: none !important;
+    margin: 10px;
+    width: 140px;
+    height: 40px;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: 100;
+    border-radius: 15px;
+
+    &:hover {
+      box-shadow: 6px 6px 8px #007bff, -6px -6px 8px;
+      border: none !important;
+      background-color: #007bff;
+      margin: 10px;
+      width: 140px;
+      height: 40px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 100;
+      border-radius: 15px;
+    }
+  }
+
+  .title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #007bff;
+  }
+
+  .subtitle {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #002c54;
+  }
+
+  .icon-skills {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    max-height: 75px;
+    max-width: 75px;
+  }
+
+  .icon-title {
+    text-align: center;
+    color: #007bff;
+  }
+
+  .univ,
+  .year {
+    color: #002c54;
+    text-align: center;
+  }
+
+  .portfolio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .latest-work {
+    max-width: 100%;
+    max-height: 124px;
+
+    @include media-breakpoint-up(md) {
+      max-width: 100%;
+      max-height: 100px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 100%;
+      max-height: 87px;
+    }
+  }
+
+  .portfolio-title {
+    font-weight: normal;
+    color: #007bff;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .testimonial {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    .card-body {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+
+  .icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .contact-subtitle {
+    color: #002c54;
+    margin-top: 10px;
+  }
+}
+
+footer {
+  margin-top: 40px;
+  p {
+    color: #002c54;
+  }
+}
