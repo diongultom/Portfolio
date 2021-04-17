@@ -10863,6 +10863,10 @@ footer .form-control {
   transition: background-color 200ms linear;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ecf0f3;
 }
