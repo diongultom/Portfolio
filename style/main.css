@@ -10910,6 +10910,10 @@ body {
   color: #007bff;
 }
 
+.page-home a {
+  text-decoration: none !important;
+}
+
 .page-home .my-button {
   -webkit-box-shadow: 0px 0px 0px #007bff, -6px -6px 8px;
           box-shadow: 0px 0px 0px #007bff, -6px -6px 8px;
@@ -10936,6 +10940,13 @@ body {
   font-size: 14px;
   font-weight: 100;
   border-radius: 15px;
+}
+
+.page-home .cv {
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .page-home .title {
