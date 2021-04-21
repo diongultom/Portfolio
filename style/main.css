@@ -10863,15 +10863,15 @@ footer .form-control {
   transition: background-color 200ms linear;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #ecf0f3;
 }
 
-.one {
+.page-home {
+  overflow-x: hidden !important;
+}
+
+.page-home .one {
   margin-top: 20px;
   margin-bottom: 20px;
   background: rgba(236, 240, 243, 0.25);
